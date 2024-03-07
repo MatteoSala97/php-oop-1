@@ -10,6 +10,7 @@ movies: spiderman, avengers, iron man
 
 <?
 class Movie{
+    
     public $length;
     public $genre;
     public $name;
@@ -53,49 +54,49 @@ class Movie{
     <h1>
         Il nome del primo film è:
         <?
-            echo $firstMovie->name = 'Spiderman';
+            echo $firstMovie->name
         ?>
     <h1>
     <h5>
         Il genere è:
         <?
-            echo $firstMovie->genre = 'Fantascienza';
+            echo $firstMovie->genre;
         ?>
     </h5>
     <p>
-        La durata è di: <? echo $firstMovie->length = 2?> ore.
+        La durata è di: <? echo $firstMovie->length?> ore.
     </p>
 
     <h1>
         Il nome del secondo film è:
         <?
-            echo $secondMovie->name = 'Avengers';
+            echo $secondMovie->name ;
         ?>
     <h1>
     <h5>
         Il genere è:
         <?
-            echo $secondMovie->genre = 'Fantascienza';
+            echo $secondMovie->genre;
         ?>
     </h5>
     <p>
-        La durata è di: <? echo $secondMovie->length = 3?> ore.
+        La durata è di: <? echo $secondMovie->length ?> ore.
     </p>
 
     <h1>
         Il nome del terzo film è:
         <?
-            echo $thirdMovie->name = 'Iron Man';
+            echo $thirdMovie->name;
         ?>
     <h1>
     <h5>
         Il genere è:
         <?
-            echo $thirdMovie->genre = 'Fantascienza';
+            echo $thirdMovie->genre;
         ?>
     </h5>
     <p>
-        La durata è di: <? echo $thirdMovie->length = 2.5?> ore.
+        La durata è di: <? echo $thirdMovie->length?> ore.
     </p>
 
    
